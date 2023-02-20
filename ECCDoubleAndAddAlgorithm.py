@@ -50,7 +50,7 @@ def double_and_add(multi, generator, p, a):
           (x_tmp, y_tmp) = (x3, y3)
    return (x3, y3)
 
-# the curve:$E:y^2= x^3+20 x + 13 mod 2111 , #E=2133$
+# the curve: y^2 = x^3 +231x +473mod17389
 p = 17389
 a = 231
 b = 473
