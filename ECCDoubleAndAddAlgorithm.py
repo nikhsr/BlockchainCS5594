@@ -54,6 +54,6 @@ def double_and_add(multi, generator, p, a):
 p = 17389
 a = 231
 b = 473
-# the primitive point (3, 10)
+# the primitive point (11259, 11278)
 generator=(11259, 11278)
 print("542P = ", double_and_add(542, generator, p, a))
