@@ -56,4 +56,11 @@ a = 231
 b = 473
 # the primitive point (11259, 11278)
 generator=(11259, 11278)
-print("542P = ", double_and_add(542, generator, p, a))
+print("542P = ", double_and_add(365, generator, p, a))
+print(modinv(365,1321))
+
+
+
+for x in range(1321):
+     if(double_and_add(x, generator, p, a) == (14594,308)):
+            print(x)
