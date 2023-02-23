@@ -1,6 +1,6 @@
 
 #Using the Formula provided in slide 63 of https://thanghoang.github.io/teaching/sp23/cs5594/files/lecture%20notes/4_crypto.pdf
-
+#NIKHIL RAM
 
 def extended_gcd(aa, bb):
    lastremainder, remainder = abs(aa), abs(bb)
